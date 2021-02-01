@@ -21,7 +21,7 @@ func (user *User) isValid() error {
 	return nil
 }
 
-func NewUser(id string, name string, Email string) (*User, error) {
+func NewUser(id string, name string, email string) (*User, error) {
 	user := User{
 		ID: id,
 		Name: name,
